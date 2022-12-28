@@ -1,0 +1,40 @@
+.container {
+    .join {
+        p {
+            line-height: 153.9%;
+            letter-spacing: -0.01em;
+            color: $gray-200;
+        }
+    }
+
+    .info {
+        .subscription {
+            p:first-child {
+                line-height: 1.9rem;
+                letter-spacing: -0.01em;
+
+                span {
+                    font-weight: 700;
+                    font-size: 3.2rem;
+                    line-height: 3.7rem;
+                    letter-spacing: -0.02em;
+                    margin-right: 1.2rem;
+                }
+            }
+
+            p:last-child {
+                line-height: 153.9%;
+                letter-spacing: -0.01em;
+            }
+        }
+
+        .why-us {
+            ul {
+                li {
+                    line-height: 127.8%;
+                    letter-spacing: -0.07em;
+                }
+            }
+        }
+    }
+}
