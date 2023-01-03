@@ -96,4 +96,67 @@ body {
             }
         }
     }
+
+    @include responsive(650px) {
+        max-width: 50rem;
+        max-height: 70rem;
+
+        .info {
+            @include flex(column, flex-start, flex-start);
+
+            .subscription {
+                border-radius: 0;
+            }
+
+            .why-us {
+                border-radius: 0 0 8px 8px;
+            }
+        }
+    }
+
+    @include responsive(510px) {
+        max-width: 40rem;
+        max-height: 80rem;
+
+        .join {
+            max-height: 100%;
+        }
+    }
+
+    @include responsive(400px) {
+        max-width: 31.1rem;
+        max-height: 72.1rem;
+
+        .join {
+            padding: 3.2rem 2.4rem;
+            max-height: 26.7rem;
+
+            h2 {
+                font-weight: 700;
+                font-size: 1.5rem;
+                line-height: 1.8rem;
+                letter-spacing: -0.015em;
+                margin-top: 3rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+                line-height: 187.9%;
+                letter-spacing: -0.0098em;
+                margin-top: 1.8rem;
+            }
+        }
+
+        .info {
+
+            .subscription {
+                padding: 2.4rem;
+            }
+
+            .why-us {
+                padding: 2.4rem;
+            }
+        }
+    }
+
 }
